@@ -2,10 +2,11 @@
 
 [🇺🇸 Read in english](https://github.com/LEMIBANDDEXARI/p5js-unofficial-french-translation/blob/main/READMEus.md) | Voici la traduction francophone non officiel de [p5.js](https://p5js.org) comme [limzykenneth](https://github.com/limzykenneth) me l'a suggéré [ici](https://github.com/processing/p5.js/issues/5180).
 # Chose importante
-- 0.0.1 (pas encore disponible - en cours) - Cette traduction francophone de p5.js se base sur une version du repo [processing/p5.js](https://github.com/processing/p5.js) qui date du 21 avril 2021 09:38(UTC+2)
+- 1.0.0-alpha - La traduction francophone non officiel de [p5.js](https://p5js.org) est maintenant disponible.  
+Il s'agit d'une version alpha car toutes les pages non pas encore été traduites. La traduction se base sur une sauvegarde du site web qui date du 31 mai 2021. S'il y a de nouvelles pages qui s'ajoutent ou se modifient sur la documentation officielle de [p5.js](https://p5js.org) il se pourrait que ses changements ne soient pas directement fait sur cette traduction non officielle.
+- 0.0.1 (pas encore disponible - en cours)
 
-## [Version francophone non officiel de p5.js](###)
-Cette version sera bientôt hébergé sur [Vercel](https://vercel.com) 💛 quand j'aurais réalisé l'entièreté de la traduction ou en tout cas une grande partie.
+## [Version francophone non officiel de p5.js](https://p5js-unofficial-french-translation.vercel.app)
 
 ## Pour contribuer
 Rentrez en contact avec [Miband](https://github.com/LEMIBANDDEXARI) sur Twitter ou sur Discord pour plus de détails, sinon ouvrez une issue.
