@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="p5.js est une librairie JS côté client pour créer des expériences graphiques et interactives, basées sur les principes fondamentaux de Processing.">
+    <title tabindex="1">accueil | p5.js</title>
+    <link rel="stylesheet" href="assets/css/all.css@v=d56210.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/ace-nc/ace.js"></script>
+    <script src="assets/js/vendor/ace-nc/mode-javascript.js"></script>
+    <script src="assets/js/vendor/prism.js"></script>
+    <script src="assets/js/init.js@v=97b4f7"></script>
+
+
+  </head>
+  <body>
+
+    <a href="index.html#content" class="sr-only">Aller au contenu</a>
+
+    <!-- p5*js language buttons -->
+    <div id="i18n-btn">
+      <h2 id="i18n-settings" class="sr-only">Paramètres de langue</h2>
+      <ul id="i18n-buttons" aria-labelledby="i18n-settings">
+        <li><a href='index.html#' lang='en' data-lang='en'>English</a></li>
+        <li><a href='index.html#' lang='es' data-lang='es'>Español</a></li>
+        <li><a href='index.html#' lang='zh-Hans' data-lang='zh-Hans'>简体中文</a></li>
+        <li><a href='index.html#' lang='ko' data-lang='ko'>한국어</a></li>
+      </ul>
+    </div>    <!-- .container -->
+    <div class="container">
+
+      <!-- logo -->
+      <header id="lockup">
+        <a href="index.html">
+          <img src="assets/img/p5js.svg" alt="p5 homepage" id="logo_image" class="logo" />
+          <div id="p5_logo"></div>
+        </a>
+      </header>
+      <!-- close logo -->
+
+
+<div id="home-page">
+
+  <!-- site navigation -->
+  <div class="column-span">
+    <nav class="sidebar-menu-nav-element">
+      <h2 id="menu-title" class="sr-only">Navigation sur le site</h2>
+      <input class="sidebar-menu-btn" type="checkbox" id="sidebar-menu-btn" />
+      <label class="sidebar-menu-icon" for="sidebar-menu-btn"><span class="sidebar-nav-icon"></span></label>
+      <ul id="menu" class="sidebar-menu" aria-labelledby="menu-title">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="https://editor.p5js.org">Éditeur</a></li>
+        <li><a href="download/index.html">Télécharger</a></li>
+        <li><a href="download/support.html">Faire un don</a></li>
+        <li><a href="get-started/index.html">Commencer</a></li>
+        <li><a href="reference/index.html">Référence</a></li>
+        <li><a href="libraries/index.html">Libraries</a></li>
+        <li><a href="learn/index.html">Apprendre</a></li>
+        <li><a href="examples.1.html">Exemples</a></li>
+        <li><a href="books/index.html">Livres</a></li>
+        <li><a href="community/index.html">Communauté</a></li>
+        <li><a href="https://showcase.p5js.org">Vitrine</a></li>
+        <li><a href="https://discourse.processing.org/c/p5js" target=_blank class="other-link">Forum</a></li>
+        <li><a href="https://github.com/processing/p5.js" target=_blank class="other-link">GitHub</a></li>
+        <li><a href="https://twitter.com/p5xjs" target=_blank class="other-link">Twitter</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="column-span">
+    <main id="content" class="home">
+      <form id="search" method="get" action="https://www.google.com/search">
+        <input type="hidden" name="as_sitesearch" value="p5js.org">
+        <input id="search_button" type="submit" aria-label="Search" class='sr-only'>
+        <input tabindex="2" id='search_field' type="text" size="20" placeholder="Recherche p5js.org" name="q">
+        <label class="sr-only" for="search_field">Rechercher sur p5js.org</label>
+      </form>
+
+      <h1>Bonjour!</h1>
+      <p style="margin-top:1em">p5.js est une librairie JavaScript pour le codage créatif, qui vise à rendre le codage accessible et inclusif pour les artistes, les concepteurs, les éducateurs, les débutants et tous les autres ! p5.js est gratuit et open source car nous pensons que les logiciels et les outils pour les apprendre doivent être accessibles à tous.</p>
+      <p>En utilisant la métaphore d'un croquis, p5.js dispose d'un ensemble complet de fonctionnalités de dessin. Cependant, vous n'êtes pas limité à votre toile de dessin. Vous pouvez considérer toute la page de votre navigateur comme votre croquis, y compris les objets HTML5 pour le texte, la saisie, la vidéo, la webcam et le son.</p>
+      <p><a href="https://showcase.p5js.org">Découvrez la nouvelle vitrine p5.js 2020 !</a></p>
+      <a href="https://editor.p5js.org"><span class='button_box'>Commencer à créer avec l'Éditeur p5 !</span></a>
+
+      <h2>Communauté</h2>
+      <p>Nous sommes une communauté de, et solidaire avec, personnes de toutes identités et expressions de genre, orientation sexuelle, race, origine ethnique, langue, neurotype, taille, handicap, classe, religion, culture, sous-culture, opinion politique, âge, compétence de niveau, profession et expérience. Nous reconnaissons que tout le monde n'a pas le temps, les moyens financiers ou la capacité de participer activement, mais nous reconnaissons et encourageons la participation de toutes sortes. Nous facilitons et favorisons l'accès et l'autonomisation. Nous somms tous des apprenants.</p>
+      <p>p5.js est une interprétation de <a href="https://processing.org"
+          target="_blank">Processing</a> pour le web d'aujourd'hui. Nous organisons des événements et opérons avec le soutien de la <a href="https://processingfoundation.org"
+          target="_blank">Fondation Processing</a>.</p>
+      <p>En savoir plus sur <a href="community/index.html">notre communauté</a>.</p>
+
+      <h2>Commencer</h2>
+      <p>Faites votre premier croquis dans l' <a href="https://editor.p5js.org" target="_blank">Éditeur p5.js</a>. En savoir plus sur l'esquisse avec p5.js sur la <a
+          href="get-started/index.html">Page de Démarrage</a> et tout ce que vous pouvez faire dans <a
+          href="reference/index.html">Référence</a>.</p>
+
+      <h2>Être impliqué</h2>
+      <p>Il existe de nombreuses façons de contribuer à p5.js :</p>
+      <h2 id="involvement-options" class="sr-only">Involvement Options</h2>
+      <ul aria-labelledby="involvement-options" class="list_view bullets">
+        <li>Partager quelque chose que vous avez fait !</li>
+        <li><a href="teach.html">Enseigner un atelier ou une classe.</a></li>
+        <li><a href="https://day.processing.org" target="_blank">Organiser une rencontre.</a></li>
+        <li><a href="https://github.com/processing/p5.js/tree/main/contributor_docs"
+            target="_blank">Contribuer au code de base.</a></li>
+      </ul>
+
+    </main>
+
+    <footer>
+      <h2 class="sr-only">Crédits</h2>
+      <p> p5.js est actuellement dirigé par <a href='https://github.com/mcturner1995' target="_blank">Moira
+          Turner</a> et a été créé par <a href='http://lauren-mccarthy.com' target="_blank">Lauren Lee
+          McCarthy</a>. p5.js est développé par une communauté de collaborateurs, avec le soutien de la <a href="https://processing.org/foundation/" target="_blank">Fondation Processing</a>  et
+        <a href="http://itp.nyu.edu/itp/" target="_blank">NYU ITP</a>. Identité et design graphique par <a
+          href="http://jereljohnson.com/" target="_blank">Jerel Johnson</a>. <a href="copyright.html">&copy;
+          Info.</a></p>
+    </footer>  </div> <!-- end column-span -->
+
+
+  <p class="clearfix">&nbsp;</p>
+
+  <object tabindex=-1 type="image/svg+xml" data="assets/img/thick-asterisk-alone.svg" id="asterisk-design-element"
+    aria-hidden="true">*</object>
+</div> <!-- end home-page -->
+
+    </div> <!-- close class='container'-->
+
+
+    <nav id="family" aria-labelledby="processing-sites-heading">
+      <h2 id="processing-sites-heading" class="sr-only">Processing Sites Soeurs</h2>
+      <ul id="processing-sites" aria-labelledby="processing-sites-heading">
+        <li><a href="https://processing.org">Processing</a></li>
+        <li><a class="here" href="index.html">p5.js</a></li>
+        <li><a href="http://py.processing.org/">Processing.py</a></li>
+        <li><a href="http://android.processing.org/">Processing pour Android</a></li>
+        <li><a href="http://pi.processing.org/">Processing pour Pi</a></li>
+        <li><a href="https://processingfoundation.org/">Fondation Processing</a></li>
+      </ul>
+      <a tabindex="1" href="index.html#content" id="skip-to-content">Passer au contenu principal</a>
+
+    </nav>
+    <script>
+    var langs = ["en","es","ko","zh-Hans"];
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-53383000-1', 'auto');
+    ga('send', 'pageview');
+
+    $(window).ready(function() {
+      if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+        $('#top').remove();
+      } else {
+        $('#top').show();
+      }
+    });
+    </script>
+
+
+  </body>
+</html>
