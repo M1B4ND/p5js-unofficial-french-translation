@@ -2,6 +2,9 @@
 
 ## Changelog
 
+#### v1.3.0-alpha (08/06/2021)
+* Translation of the donation page
+
 #### v1.2.0-alpha (03/06/2021)
 * Translation of the download page
 
