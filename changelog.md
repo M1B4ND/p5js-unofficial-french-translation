@@ -2,6 +2,12 @@
 
 ## Changelog
 
+#### v1.3.1-alpha (18/06/2021)
+* Correction page home
+* Correction page support
+* Correction page books
+* Correction page download
+
 #### v1.3.0-alpha (08/06/2021)
 * Translation of the donation page
 
