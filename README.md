@@ -10,4 +10,5 @@
 ## [Version francophone non officiel de p5.js](https://p5js-unofficial-french-translation.vercel.app)
 
 ## Pour contribuer
-Rentrez en contact avec [Miband](https://github.com/LEMIBANDDEXARI) sur Twitter ou sur Discord pour plus de détails, sinon ouvrez une issue.
+Regardez [p5.js](https://p5js-unofficial-french-translation.vercel.app) et voyez ce qui n'est pas traduit.
+Ensuite modifier la page en question dans le code du repo.
